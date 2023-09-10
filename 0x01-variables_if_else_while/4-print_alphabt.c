@@ -9,17 +9,18 @@
  */
 int main(void)
 {
-    int c = 'a';
+	int c = 'a';
 
-    while (c <= 'z')
-    {
-        if (c != 'e' && c != 'q')
-        {
-            putchar(c);
-        }
-        c++;
-    }
+	while (c <= 'z')
+	{
+		if (c != 'e' && c != 'q')
+	{
+		putchar(c)
+	}
+		c++;
+	}
 
-    putchar('\n'); /* Print a newline character at the end */
-    return (0);
+	putchar('\n');
+
+	return (0);
 }
