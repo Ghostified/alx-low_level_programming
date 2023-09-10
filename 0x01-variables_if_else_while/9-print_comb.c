@@ -18,12 +18,13 @@ int main(void)
 		if (num < 9)
 		{
 			putchar(',');
-			putcahr(' ');
+			putchar(' ');
 		}
 
-		num++
+		num++;
 	}
 
 	putchar('\n');
 
 	return (0);
+}
